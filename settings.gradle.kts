@@ -1,4 +1,4 @@
-rootProject.name = "microservice-template"
+rootProject.name = "selene"
 include("controller")
 include("root-project")
 include("queue")
