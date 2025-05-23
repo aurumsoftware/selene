@@ -5,7 +5,6 @@ Existe as classes com o sufixo ou prefixo "example" onde vai ser renomeada confo
 ## How to install
 * [Java 17](https://www.oracle.com/java/technologies/downloads/#java17)
 * Gradle `sdk install gradle 7.4`
-* Mongodb `use docker`
 
 ## Dependencias
 `./gradlew dependencies`

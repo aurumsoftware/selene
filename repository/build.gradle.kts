@@ -21,8 +21,6 @@ the<io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension>().a
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
-
     implementation(project(":application"))
     implementation(project(":domain"))
 }
