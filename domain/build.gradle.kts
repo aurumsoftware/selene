@@ -4,6 +4,8 @@ plugins {
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
     kotlin("jvm") version "1.6.21"
     kotlin("plugin.spring") version "1.6.21"
+    kotlin("plugin.jpa") version "1.6.21"
+    kotlin("plugin.noarg") version "1.6.21"
 }
 
 group = "com.aurum.services.document"
@@ -22,6 +24,9 @@ the<io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension>().a
 
 dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("javax.persistence:javax.persistence-api:2.2")
+
+    apply(plugin = "org.jetbrains.kotlin.plugin.noarg")
 }
 
 tasks.getByName<Test>("test") {
