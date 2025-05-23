@@ -1,4 +1,4 @@
-![Performance - Microservice Template](docs/microservice-template.png)
+![Selene](docs/selene.png)
 
 Existe as classes com o sufixo ou prefixo "example" onde vai ser renomeada conforme o projeto.
 
