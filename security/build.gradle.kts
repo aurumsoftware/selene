@@ -30,7 +30,6 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
     implementation(platform("com.google.cloud:libraries-bom:26.1.3"))
-    implementation("com.google.cloud:google-cloud-secretmanager")
     implementation("com.google.auth:google-auth-library-oauth2-http:1.3.0")
 
     implementation(project(":controller"))
