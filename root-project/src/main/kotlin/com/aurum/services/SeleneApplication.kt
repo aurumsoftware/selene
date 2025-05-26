@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication(scanBasePackages = ["com.aurum.services"])
-class MicroserviceTemplateApplication
+class SeleneApplication
 
 fun main(args: Array<String>) {
-	SpringApplication.run(MicroserviceTemplateApplication::class.java, *args)
+	SpringApplication.run(SeleneApplication::class.java, *args)
 }

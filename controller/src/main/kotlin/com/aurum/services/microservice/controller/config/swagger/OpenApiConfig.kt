@@ -13,8 +13,8 @@ import org.springframework.context.annotation.Configuration
 class OpenApiConfig {
 
     fun apiInfo(): Info {
-        return Info().title("Microservice Template API")
-                .description("Microservice Template Middleware")
+        return Info().title("Selene API")
+                .description("Confecção de peças e controle de créditos")
                 .version("1.0.0")
                 .license(License().name("Apache 2.0")
                         .url("http://springdoc.org"))
