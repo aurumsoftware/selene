@@ -36,7 +36,7 @@ class WebSecurityConfig {
                 .antMatchers("/swagger-ui/**").permitAll()
                 .antMatchers("/v3/api-docs/**").permitAll()
                 .antMatchers("/health").permitAll()
-                .antMatchers("/login").permitAll()
+                .antMatchers("/auth").permitAll()
                 .antMatchers(HttpMethod.GET, "/").permitAll()
                 .anyRequest().authenticated()
                 .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)

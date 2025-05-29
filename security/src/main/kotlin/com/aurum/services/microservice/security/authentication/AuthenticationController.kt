@@ -24,7 +24,7 @@ class AuthenticationController(
     @Value("\${tokens.SELENE_TOKEN}")
     lateinit var secret: String
 
-    @PostMapping("/login")
+    @PostMapping("/auth")
 //    @Operation(summary = "Devolve o token para um usuário válido")
     fun authenticate(@RequestBody login: String): ResponseEntity<String> {
         val loginDTO = Gson().fromJson(login, LoginDTO::class.java)
