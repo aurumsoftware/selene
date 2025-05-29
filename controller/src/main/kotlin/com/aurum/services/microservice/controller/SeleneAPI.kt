@@ -22,4 +22,8 @@ class SeleneAPI @Autowired constructor(
     @GetMapping("health")
     @ResponseStatus(HttpStatus.OK)
     fun health() = Unit
+
+    @GetMapping("teste")
+    @ResponseStatus(HttpStatus.OK)
+    fun teste() = Unit
 }

@@ -35,7 +35,7 @@ class SecretManagerProvider @Autowired constructor(
     }
 
     fun getSecret(secretName: String): String? {
-        return secretConfig.MICROSERVICE_TEMPLATE_TOKEN
+        return secretConfig.SELENE_TOKEN
     }
 
 }

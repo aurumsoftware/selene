@@ -6,5 +6,5 @@ import org.springframework.stereotype.Component
 @Component
 @ConfigurationProperties("tokens")
 class SecretsConfig {
-    lateinit var MICROSERVICE_TEMPLATE_TOKEN: String
+    lateinit var SELENE_TOKEN: String
 }
